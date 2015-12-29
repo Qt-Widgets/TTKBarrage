@@ -4,12 +4,39 @@
 #
 #-------------------------------------------------
 
-QT       += core gui multimedia multimediawidgets
+QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+equals(QT_MAJOR_VERSION, 4){
+QT       += multimedia
+}
+equals(QT_MAJOR_VERSION, 5){
+QT       += widgets multimediawidgets
+}
 
 TARGET = QBarrage
 TEMPLATE = app
+
+win32{
+    equals(QT_MAJOR_VERSION, 5):{
+        msvc{
+            !contains(QMAKE_TARGET.arch, x86_64){
+                 #support on windows XP
+                 QMAKE_LFLAGS_WINDOWS = /SUBSYSTEM:WINDOWS,5.01
+            }
+        }
+
+        gcc{
+            QMAKE_CXXFLAGS += -std=c++11
+            QMAKE_CXXFLAGS += -Wunused-function
+            QMAKE_CXXFLAGS += -Wswitch
+        }
+    }
+    equals(QT_MAJOR_VERSION, 4):{
+            QMAKE_CXXFLAGS += -std=c++11
+            QMAKE_CXXFLAGS += -Wunused-function
+            QMAKE_CXXFLAGS += -Wswitch
+    }
+}
 
 INCLUDEPATH += $$PWD/core \
                $$PWD/widget \
