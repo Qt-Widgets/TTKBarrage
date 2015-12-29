@@ -1,0 +1,5 @@
+*.user
+build-QBarrage-*/
+*.*-pre1
+*.user.*
+*.autosave
