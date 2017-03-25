@@ -3,7 +3,7 @@
 
 /* =================================================
  * This file is part of the Video Barrage project
- * Copyright (c) 2014 - 2015 Greedysky Studio
+ * Copyright (c) 2014 - 2017 Greedysky Studio
  * All rights reserved!
  * Redistribution and use of the source code or any derivative
  * works are strictly forbiden.

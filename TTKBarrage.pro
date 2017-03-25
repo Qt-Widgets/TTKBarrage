@@ -1,8 +1,10 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2015-12-28T19:55:02
-#
-#-------------------------------------------------
+# =================================================
+# * This file is part of the TTK Music Player project
+# * Copyright (c) 2015 - 2017 Greedysky Studio
+# * All rights reserved!
+# * Redistribution and use of the source code or any derivative
+# * works are strictly forbiden.
+# =================================================
 
 QT       += core gui
 
@@ -60,12 +62,4 @@ HEADERS  += \
         core/barragecore.h \
         videoview.h
 
-
-RESOURCES+= QBarrage.qrc
-
-#RC_FILE  += \
-#        QWeather.rc
-
-#FORMS    += \
-#        ui/weatherapplication.ui \
-#        ui/weathermessagebox.ui
+RESOURCES+= TTKBarrage.qrc
