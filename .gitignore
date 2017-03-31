@@ -1,5 +1,11 @@
 *.user
-build-QBarrage-*/
-*.*-pre1
 *.user.*
+*.aps
+build-*/
+*.*-pre1
 *.autosave
+*.*~
+*.uxf
+Thumbs.db
+ehthumbs.db
+Desktop.ini
