@@ -2,8 +2,8 @@
 #define BARRAGECORE_H
 
 /* =================================================
- * This file is part of the Video Barrage project
- * Copyright (c) 2014 - 2017 Greedysky Studio
+ * This file is part of the TTK Barrage project
+ * Copyright (c) 2015 - 2017 Greedysky Studio
  * All rights reserved!
  * Redistribution and use of the source code or any derivative
  * works are strictly forbiden.

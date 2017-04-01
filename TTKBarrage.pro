@@ -1,5 +1,5 @@
 # =================================================
-# * This file is part of the TTK Music Player project
+# * This file is part of the TTK Barrage project
 # * Copyright (c) 2015 - 2017 Greedysky Studio
 # * All rights reserved!
 # * Redistribution and use of the source code or any derivative
@@ -15,7 +15,7 @@ equals(QT_MAJOR_VERSION, 5){
 QT       += widgets multimediawidgets
 }
 
-TARGET = QBarrage
+TARGET = TTKBarrage
 TEMPLATE = app
 
 win32{
