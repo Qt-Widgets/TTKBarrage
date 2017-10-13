@@ -21,11 +21,8 @@ Screenshots
 
 Copyright
 -------
- * This file is part of the Music Player project.
+ * This file is part of the TTK Barrage project
  * Copyright (c) 2014 - 2017 Greedysky Studio.
- * All rights reserved!
- * Redistribution and use of the source code or any derivative.
- * works are strictly forbiden.
  * mail: greedysky@163.com.
  
 How To Contribute
